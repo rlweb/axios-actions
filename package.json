@@ -1,11 +1,11 @@
 {
-  "name": "axios-actions",
-  "version": "4.0.2",
+  "name": "wcbs-ltd-axios-actions",
+  "version": "4.0.3",
   "description": "Bundle endpoints as callable, reusable services",
   "types": "dist/main.d.ts",
-  "main": "dist/axios-actions.js",
-  "module": "dist/axios-actions.esm.js",
-  "jsnext:main": "dist/axios-actions.esm.js",
+  "main": "dist/wcbs-ltd-axios-actions.js",
+  "module": "dist/wcbs-ltd-axios-actions.esm.js",
+  "jsnext:main": "dist/wcbs-ltd-axios-actions.esm.js",
   "files": [
     "dist/*"
   ],
@@ -17,11 +17,14 @@
     "test": "jest --watchAll --verbose",
     "unit": "jest --config jest.config.js --coverage"
   },
-  "author": "Dave Stewart <dave@davestewart.io>",
-  "homepage": "https://github.com/davestewart/axios-actions#readme",
+  "author": [
+    "Dave Stewart <dave@davestewart.io>",
+    "Rhys Laval <rhys.laval@wcbs.co.uk>"
+  ],
+  "homepage": "https://github.com/wcbs-ltd/axios-actions#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davestewart/axios-actions.git"
+    "url": "git+https://github.com/wcbs-ltd/axios-actions.git"
   },
   "keywords": [
     "axios",
@@ -31,7 +34,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davestewart/axios-actions/issues"
+    "url": "https://github.com/wcbs-ltd/axios-actions/issues"
   },
   "dependencies": {
     "deepmerge": "^3.0.0"
